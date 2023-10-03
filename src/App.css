@@ -1,0 +1,327 @@
+
+.appnavbar{
+  font-family: Poppins;
+  font-size: 18px;
+  box-shadow: 0px 8px 39px 0px rgba(0, 0, 0, 0.09);
+}
+.appnavbar_header{
+  color: #25282B;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: 48px;
+}
+.appnavbar_header_txt{
+  margin-right: 12px;
+  font-weight: 300;
+}
+.header_img{
+  width: 649px;
+  height: 649px;
+  flex-shrink: 0;
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  overflow: hidden;
+}
+.header_left_intro{
+  margin-top: 74px;
+  color: #ffae00;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header_left_introduce{
+  margin-top: 18px;
+  font-family: Pretendard;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+.header_left_introduce_body_container{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.header_left_introduce_body{
+  margin: none;
+  color: #363636;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+}
+.btn_header_container{
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.btn_header{
+  font-family: Pretendard;
+  padding: 24px 64px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  background: #2D2D2D;
+  color: white;
+  border: none;
+}
+
+.project_header{
+  color: #25282B;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+}
+.hr{
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #FDC435;
+}
+.project_header_container{
+  margin-top: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project_header_container2{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project_contents{
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.project_info{
+  box-shadow: 0px 8px 39px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 24px 0px 0px 24px;
+  background-color: white;
+  display: flex;
+  width: 496px;
+  height: 524px;
+  padding: 94px 44.322px 94px 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.project_img{
+    box-shadow: 0px 8px 39px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 0px 24px 24px 0px;
+    width: 496px;
+    height: 526px;
+    overflow: auto;
+    background-color: white;
+}
+.project_info2{
+  box-shadow: 0px 8px 39px 0px rgba(0, 0, 0, 0.09);
+  border-radius: 0px 24px 24px 0px;
+  background-color: white;
+  display: flex;
+  width: 496px;
+  height: 524px;
+  padding: 94px 44.322px 94px 45px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.project_img2{
+    box-shadow: 0px 8px 39px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 24px 0px 0px 24px;
+    width: 496px;
+    height: 526px;
+    overflow: auto;
+    background-color: white;
+}
+.project_img_src{
+  width: 496px;
+}
+.project_info_header{
+  margin-bottom: 18px;
+  color: #25282B;
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 700;
+}
+.tag_container{
+  margin-top: 8px;
+  display: flex;
+  gap: 14px;
+}
+.tag{
+  height: 30px;
+  display: flex;
+  padding: 4px 16px;
+  align-items: center;
+  justify-content: center;
+  color: #25282B;
+  border-radius: 24px;
+  border: 1px solid var(--font-high-emphasis, #25282B);
+}
+.project_info_body{
+  color: #828282;
+  width: 358px;
+  font-family: Pretendard;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 24px;
+}
+.btn_radius{
+  margin-top: 24px;
+  color: #FFF;
+  font-family: Pretendard;
+  display: inline-flex;
+  padding: 14px 30px;
+  align-items: flex-start;
+  border: none;
+  border-radius: 24px;
+  background: #25282B;
+}
+.btnContacts{
+  margin-top: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.notionIcon{
+  width: 42px;
+  height: 42px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.footerImg{
+  position: absolute;
+  left: 0px;
+}
+.footerImgSrc{
+  width: 100%;
+}
+.btnContact{
+  border: none;
+  background-color: #F9FAFF;
+}
+.footerText{
+  margin-top: 32px;
+}
+.btnHover:hover{
+  background-color: #FDC435;
+}
+.profileContainer{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.contact_container{
+  margin-top: 100px;
+  background-color: white;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 120px;
+  border-radius: 24px;
+  box-shadow: 0px 8px 39px 0px rgba(0, 0, 0, 0.09);
+  margin-bottom: 150px;
+}
+.contact_app{
+  font-family: Pretendard;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact_title{
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+.contact_body{
+  font-weight: 200;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.hidden{
+  opacity: 1;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0); 
+}
+
+.hidden2{
+  opacity: 1;
+  filter: blur(10px);
+  transform: translateY(-200%);
+  transition: all 1s;
+}
+.show2{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0); 
+}
+.hidden3{
+  opacity: 1;
+  filter: blur(10px);
+  transform: translateY(200%);
+  transition: all 1s;
+}
+.show3{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0); 
+}
+
+/**/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
