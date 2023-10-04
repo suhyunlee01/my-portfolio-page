@@ -20,9 +20,14 @@ function ProjectComp(){
                     <p>Cocktail DIY는 집에서 누구나 만들 수 있는 칵테일레시피를 검색할 수 있는 웹사이트입니다.그 뿐 아니라 사용자가 개발한 레시피를 저장하고, 과음 방지 게임도 즐길 수 있습니다.</p>
                     <p>기간: 2023-07-30  ~ 2023-10-03</p>
                   </div>
-                  <a href='https://github.com/suhyunlee01/Cocktail_DIY'>
-                    <button className='btn_radius btnHover'>프로젝트 바로가기</button>
-                  </a>
+                  <div>
+                    <a className='btn_a' href='https://github.com/suhyunlee01/Cocktail_DIY'>
+                      <button className='btn_radius btnHover'>프로젝트 바로가기</button>
+                    </a>
+                    <a className='btn_a' href='https://www.notion.so/Javascript_FrontEnd-60bd96eb58404e1fae56d6479b256a41'>
+                      <button className='btn_radius btnHover'>진행 과정</button>
+                    </a>
+                  </div>
                 </div>
                 <div className='project_img'>
                   <img className='project_img_src' src={cocktaildiy}></img>

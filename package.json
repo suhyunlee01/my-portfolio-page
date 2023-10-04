@@ -19,10 +19,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://suhyunlee01.github.io/my-portfolio-page/",
+
+  "homepage": "https://suhyunlee01.github.io/my-portfolio-page",
   "eslintConfig": {
     "extends": [
       "react-app",

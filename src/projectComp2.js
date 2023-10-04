@@ -20,9 +20,14 @@ function ProjectComp2(){
                     <p>MY EVERYTHING은 오늘의 할 일, 오늘의 날씨를 파악하고 하루의 모든 것을 계획할 수 있도록 돕는 어플리케이션입니다.</p>
                     <p>기간: 2023-08-30  ~  2023-09-07</p>
                   </div>
-                  <a href='https://github.com/suhyunlee01/My__Everything'>
-                    <button className='btn_radius btnHover'>프로젝트 바로가기</button>
-                  </a>
+                  <div>
+                    <a className='btn_a' href='https://github.com/suhyunlee01/My__Everything'>
+                      <button className='btn_radius btnHover'>프로젝트 바로가기</button>
+                    </a>
+                    <a className='btn_a' href='https://www.notion.so/C-Net-f480bcbfe9d940558166452d18f942de'>
+                      <button className='btn_radius btnHover'>진행 과정</button>
+                    </a>
+                  </div>
                 </div>
               </div>
         </div>
