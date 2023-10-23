@@ -8,18 +8,18 @@ import ProjectPage from './projectPage';
 import Footer from './footer';
 import ContactPage from './contactPage';
 //BrowserRouter 컴포넌트를 Router라는 이름으로 사용
-import { Route, Routes, Link, useNavigate, Outlet, BrowserRouter as Router } from 'react-router-dom';
+import { Route, Routes, Link, useNavigate, Outlet, HashRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
        <Navbar className='appnavbar' bg="light" data-bs-theme="light">
         <Container>
-          <Navbar.Brand className='appnavbar_header' href="/">Suhyun Lee</Navbar.Brand>
+          <Navbar.Brand className='appnavbar_header' href="#/">Suhyun Lee</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/about" className='appnavbar_header_txt'>About</Nav.Link>
-            <Nav.Link href="/project" className='appnavbar_header_txt'>Projects</Nav.Link>
-            <Nav.Link href='/contact' className='appnavbar_header_txt'>Contacts</Nav.Link>
+            <Nav.Link href="#/about" className='appnavbar_header_txt'>About</Nav.Link>
+            <Nav.Link href="#/project" className='appnavbar_header_txt'>Projects</Nav.Link>
+            <Nav.Link href='#/contact' className='appnavbar_header_txt'>Contacts</Nav.Link>
           </Nav> 
         </Container>
       </Navbar>
@@ -33,6 +33,7 @@ function App() {
             <Route path='/contact' element={<ContactPage></ContactPage>}></Route>
         </Routes>
       </Router>
+      
       <Footer></Footer>
     </div>
   );

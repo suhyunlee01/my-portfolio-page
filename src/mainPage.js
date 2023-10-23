@@ -51,8 +51,8 @@ function MainPage(){
                             <span className='header_left_introduce_body'>기록과 문서화, 커뮤니케이션을을 좋아합니다.</span>
                         </div>
                         <div className='btn_header_container'>
-                            <a href='/contact'>
-                                <button className='btn_header btnHover'>연락처</button>
+                            <a href='https://jewel-woodpecker-781.notion.site/s-Road-map-1653b2f970b34e31b6b23c58c5405c30'>
+                                <button className='btn_header btnHover'>개발 기록 보기</button>
                             </a>
                             <a href='https://github.com/suhyunlee01'>
                                 <button className='btn_header btnHover'>깃허브 바로가기</button>

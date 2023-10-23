@@ -24,7 +24,7 @@ function ProjectComp2(){
                     <a className='btn_a' href='https://github.com/suhyunlee01/My__Everything'>
                       <button className='btn_radius btnHover'>프로젝트 바로가기</button>
                     </a>
-                    <a className='btn_a' href='https://www.notion.so/C-Net-f480bcbfe9d940558166452d18f942de'>
+                    <a className='btn_a' href='https://jewel-woodpecker-781.notion.site/C-Net-f480bcbfe9d940558166452d18f942de'>
                       <button className='btn_radius btnHover'>진행 과정</button>
                     </a>
                   </div>
